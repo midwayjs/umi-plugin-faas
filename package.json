@@ -1,0 +1,32 @@
+{
+  "name": "umi-plugin-faas",
+  "version": "0.0.1",
+  "description": "@umijs/plugin-locale",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umijs/plugins"
+  },
+  "keywords": [
+    "umi",
+    "midway-faas",
+    "serverless"
+  ],
+  "authors": [
+    "Harry Chen <czy88840616@gmail.com> (https://github.com/czy88840616)"
+  ],
+  "license": "MIT",
+  "bugs": "http://github.com/midwayjs/umi-plugin-faas/issues",
+  "homepage": "https://github.com/midwayjs/umi-plugin-faas",
+  "peerDependencies": {
+    "umi": "3.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@midwayjs/faas-dev-pack": "^0.2.94"
+  },
+  "devDependencies": {}
+}
